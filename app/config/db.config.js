@@ -1,14 +1,8 @@
 module.exports = {
-  HOST: "localhost",
-  PORT: "1434",
-  USER: "zkoder",
-  PASSWORD: "123456",
-  DB: "bezkoder_db",
-  dialect: "mssql",
-  pool: {
-    max: 5,
-    min: 0,
-    acquire: 30000,
-    idle: 10000
-  }
+  HOST: "database-55.cluster-crxp87uhscxb.us-east-1.rds.amazonaws.com",
+  PORT: "3306",
+  USER: "admin",
+  PASSWORD: "3356ARee73ynUPTxHA4I",
+    DB: "hossam",
+
 };
